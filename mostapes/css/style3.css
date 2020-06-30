@@ -1,0 +1,33 @@
+@media screen and (max-width:1920px) {
+
+  /* setting */
+  html, body {
+  	font-size: 9px;
+  }
+
+  .wrap {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  .works-list-top-right {
+    position: relative;
+    width: 50%;
+    margin-left: 50%;
+  }
+
+  .works-list-top-right img {
+    width: 50%;
+  }
+
+  .sec3 {
+    padding-bottom: 870px;
+  }
+
+  .news-list-text{
+  	width: 100%;
+    vertical-align: middle;
+    margin: 2.0rem 0 0 2.0rem;
+  }
+}

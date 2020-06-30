@@ -1,0 +1,34 @@
+@media screen and (min-width:960px) {
+    #wrapper {
+      width:100%;
+      margin:0 auto;
+      background-color: red;
+    }
+
+    header {
+      width:100%;
+      height:120px;
+      background-color: orange;
+    }
+
+    .content {
+      width: 62.5%;
+      height: 400px;
+      float: left;
+      background-color: yellow;
+    }
+
+    .right-side {
+      width:31.25%;
+      height: 400px;
+      float: right;
+      background-color: green;
+    }
+
+    footer{
+      width: 100%;
+      height: 120px;
+      clear: both;
+      background-color: brown;
+    }
+}

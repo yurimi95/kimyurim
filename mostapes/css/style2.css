@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* common */
+#eunp_person_modal, .more_see_personal, #m_eunp_hd, .m_device, .m_more_detail{display:none;}
+
+/* header_gnb ~1650 */
+@media all and (max-width:1600px){
+
+#wrap{
+    background-color: red;
+}
+#eunp_hd>ul{
+    max-width:1200px;
+    margin:0 auto;
+    text-align:right;
+}
+#eunp_hd>ul>li{
+    display:inline-block;
+    text-align:center;
+    padding:0 15px;
+}
+#eunp_hd>ul>li>a{
+    display:block;
+    width:100%;
+    padding:5px;
+}
+
+} /* header E */
+
+/* indicator */
+@media all and (max-width:1280px){
+    #eunp_tip{display:none;}
+}/* indicator E */
+
+/* tablet 768px ~ 1259px */
+@media all and (max-width:1199px) and (min-width:768px){
+/* common */
+.eunp_center{width:initial;}
+.eunp_res_img{width:100%; height:auto;}
+.more_detail, .pc_agree{display:none;}

@@ -1,0 +1,81 @@
+a{text-decoration: none;}
+
+a.top {position: fixed; right: 3%; bottom: 50px; display: none; font-size: 14px; color:#666; border: 1px solid #eee; padding:10px 20px;}
+
+#intro{position: fixed; background-image: url("../img/side_bg.png"); width: 290px; height: 100%; z-index: 1; top: 0; left: 0; font-family: "Century Gothic";}
+
+  #list{position: absolute; z-index: 2; top: 160px; width: 96%;}
+   #nav_top{margin-left: 30px; font-size:24px; line-height: 150%;}
+   #nav_top li a{color:#000;}
+   #nav_bottom{margin-top: 5px;}
+   #nav_bottom li{width:100%; height: auto; font-size:18px; line-height: 150%; text-indent:3em; color:#000; padding: 5px 0;}
+   #nav_bottom li a{color:#666;}
+
+#penguin_zone{margin-top: 120px; margin-left: 1310px; position: relative;}
+#penguin_zone p{color:#666; font-size: 12px; position: absolute; left: 80px; top: 10px; z-index: 1;}
+#ice{margin-left: 20px; position: absolute; left: 210px; top: 90px;}
+#mal{float: left; position: absolute; left: 70px; top: 0;}
+
+#wrap{width: 1200px; height: 4000px; margin-left: 500px;}
+
+#profile_zone{width: 100%; height: 640px; margin: 0 auto; margin-top: 50px; font-weight: bold; font-family: "맑은 고딕"; position: relative;;}
+.profile_left{width: 215px; position: absolute; top: 0; left: 0;}
+.profile_left h1{width: 100%; font-size: 64px; color:#d25f66;}
+.profile_left img{width: 100%; margin-top:40px;}
+.profile_name {width: 100%; text-align: center; color:#4c4944;}
+.profile_name h4{font-size: 30px; margin-top: 50px; margin-bottom: 20px;}
+.profile_name p{font-size: 22px;}
+.profile_right{width: 880px; height:500px; position: absolute; top:120px; right: 0px;}
+.profile_right_content{width: 360px; height: 240px; color:#4c4944; line-height: 28px; float: left; margin-right: 80px; margin-bottom: 30px;}
+.profile_right_content h4{width: 100%; font-size: 20px; margin-bottom: 20px;}
+.skill{width: 360px; height: 250px;}
+.profile_right_content_side{width: 110px; float: left; font-size: 13px; color:#cc6668;}
+.profile_right_content_in{width:240px; height: 200px; float: right;  font-size: 13px;}
+
+ #box1,#box3{width: 100%; height: 700px; margin-top: 210px;}
+
+   #box1 .imgDiv{width: 660px; height: 350px; float: right; position: relative; background-image: url("../img/bg8.jpg"); background-repeat: no-repeat;}
+   #box3 .imgDiv{width: 660px; height: 880px; float: right; position: relative; background-image: url("../img/bg8.jpg"); background-repeat: no-repeat;}
+
+    .imgDiv_img{width: 640px; height: 840px; overflow: hidden; margin-top: 15px; margin-left: 10px;}
+    #box1 .imgDiv1 img, #box3 .imgDiv1 img{width: 100%;}
+
+     .textDiv{width: 530px; float: left; margin-top: 82px;}
+       .design_title1{float: right; margin-top: 60px; margin-right: 10px;}
+          .design_title1 h1{font-family: "Arial"; font-size: 60px; font-weight: lighter; color:#282828; margin: 0; }
+          .design_title1 #lufth_num{font-family: "Arial"; font-size: 68px; color: #0390c5; float: right; margin: 0; font-weight: lighter;}
+          .design_title1 #jihwaja_num{font-family: "Arial"; font-size: 72px; color: #f9c251; font-weight: lighter; float: right; margin: 0;}
+      .aaa{width: 100%; height: 375px; float: left; margin-top: 40px;}
+        .aaa h3{width: 100%; font-family: "Arial"; font-size: 30px; font-weight: bold; color:#282828; text-transform: uppercase; margin: 0;}
+        .aaa h4{font-family: "맑은 고딕"; font-size: 20px; font-weight: bold; color:#5da9c9; margin: 10px 0px;}
+        .aaa #design_third{font-family: "맑은 고딕"; font-size: 20px; font-weight: bold; color:#f9c251; margin: 20px 0px;}
+        .aaa p{width: 400px; font-family: "맑은 고딕"; font-size: 14px; color:#666; line-height: 150%;}
+        .aaa .color{width: 180px; height: 40px; margin-top: 20px;}
+          .aaa h5{float: left; margin: 10px; margin-left: 0; font-size: 14px; color:#666;}
+          .aaa .color div{float: left; margin-top: 10px; margin-right: 5px;}
+
+
+  #box2{width: 100%; height: 900px; margin-top: 150px; background-image: url("../img/bg8.jpg"); background-repeat: no-repeat;}
+
+    #box2 .imgDiv2{width: 660px; height: 880px; float:left; overflow: hidden;}
+        .imgDiv2_img{width: 640px; height: 830px; overflow: hidden; margin: 0 auto; margin-top: 20px;}
+        #box2 .imgDiv2 img{width: 100%;}
+
+        .textDiv2{width: 530px; float: right; margin-top: 82px;}
+        .design_title2{float: left; margin-top: 60px; margin-left: 10px;}
+          .design_title2 h1{font-family: "Arial"; font-size: 60px; font-weight: lighter; color:#282828; margin: 0;}
+          .design_title2 #lincoln_num{font-family: "Arial"; font-size: 68px; font-weight: lighter; color: #dcb587; float: left; margin: 0;}
+          .design_title2 #hibrow_num{font-family: "Arial"; font-size: 72px; color: #7c9956; float: left; margin: 0; font-weight: lighter; }
+          .design_title2 #hibrow_m_num{font-family: "Arial"; font-size: 72px; color: #7c9956; float: left; margin: 0; font-weight: lighter; }
+        .bbb{width: 100%; height: 375px; float: right; margin-top: 40px;}
+          .bbb h3{width: 100%; font-family: "Arial"; font-size: 30px; font-weight: bold; color:#282828; text-transform: uppercase; text-align: right; margin: 0;}
+          .bbb h4{font-family: "맑은 고딕"; font-size: 20px; font-weight: bold; color:#5da9c9; text-align: right; margin: 20px 0px;}
+          .bbb #design_second{font-family: "맑은 고딕"; font-size: 20px; font-weight: bold; color:#dcb587; margin: 10px 0px;}
+          .bbb #design_forth{font-family: "맑은 고딕"; font-size: 20px; font-weight: bold; color:#7c9956; margin: 10px 0px;}
+          .bbb p{width: 400px; font-family: "맑은 고딕"; font-size: 14px; color:#666; line-height: 150%; float: right; text-align: right;}
+          .bbb .color2{width: 160px; height: 40px; margin-top: 10px; float: right;;}
+            .bbb h5{font-size: 14px; color:#666; margin: 10px; margin-right: 0; float: left;}
+            .bbb .color2 div{float: left; margin-left: 5px; margin-top: 10px;}
+
+
+    
